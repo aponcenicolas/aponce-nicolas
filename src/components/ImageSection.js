@@ -1,43 +1,20 @@
 import React from "react";
-import about from "../img/avatar.png";
 
 const ImageSection = () => {
   return (
-    <div className="ImageSection">
-      <div className="img">
-        <img src={about} alt="" />
-      </div>
+    <div className="ImageSection" style={{ textAlign: "center" }}>
       <div className="about-info">
         <h4>
-          Soy <span> Nicolas Aponce</span>
+          Mis
+          <span> Habilidades </span>
         </h4>
         <p className="about-text">
-          descripcion descripcion descripcion descripcion descripcion
-          descripcion descripcion descripcion descripcion descripcion
-          descripcion descripcion descripcion descripcion descripcion
-          descripcion descripcion descripcion descripcion descripcion
-          descripcion descripcion descripcion descripcion descripcion
-          descripcion descripcion descripcion descripcion descripcion
+          A lo largo de mi carrera y en todos los proyectos en los que he
+          trabajado he aprendido a utilizar muchas herramientas y tecnologías
+          así mismo mejorando mis habilidades como desarrollador. Domino algunas
+          herramientas más que otros, pero con el paso del tiempo he ido
+          mejorando y puliendo mi manera de como escribir un buen código.
         </p>
-        <div className="about-details">
-          <div className="left-section">
-            <p>Nombre</p>
-            <p>Apellido</p>
-            <p>Edad</p>
-            <p>Nacionalidad</p>
-            <p>Idioma</p>
-            <p>Dirección</p>
-          </div>
-          <div className="right-section">
-            <p>Nicolas</p>
-            <p>Aponce</p>
-            <p>25</p>
-            <p>Peruano</p>
-            <p>Español</p>
-            <p>Ate Vitarte Lima-Perú</p>
-          </div>
-        </div>
-        <button className="btn">Descargar CV</button>
       </div>
     </div>
   );

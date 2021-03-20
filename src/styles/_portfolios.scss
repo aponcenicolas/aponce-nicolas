@@ -1,5 +1,5 @@
 .PortfolioPage {
-  text-decoration: none;
+  position: relative;
 }
 
 .portfolios {
@@ -27,7 +27,6 @@
         left: 15px;
         height: calc(100% - 30px);
         width: calc(100% - 30px);
-        background-color: rgba(255, 255, 255, 0.925);
         transform-origin: center;
         transform: scale(0);
         transition: all 0.4s ease-in-out;
@@ -62,7 +61,7 @@
             color: white;
 
             &:not(:last-child) {
-              margin-right: 2rem;
+              margin-right: auto;
             }
           }
         }

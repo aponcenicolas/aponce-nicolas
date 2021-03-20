@@ -28,19 +28,19 @@ const App = () => {
         <div className="lines-3"></div>
       </div>
 
-      <div className="main-content">
+      <div className="main-content" onClick={navClick}>
         <div className="content">
           <Switch>
             <Route path="/" exact>
               <HomePage />
             </Route>
-            <Route path="/about" exact>
+            <Route path="/abilities" exact>
               <AboutPage />
             </Route>
-            <Route path="/portfolios">
+            <Route path="/courses">
               <PortfoliosPage />
             </Route>
-            <Route path="/blogs" exact>
+            <Route path="/projects" exact>
               <BlogsPage />
             </Route>
             <Route path="/contact" exact>

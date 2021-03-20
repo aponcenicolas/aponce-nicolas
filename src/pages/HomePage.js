@@ -15,9 +15,13 @@ const HomePage = () => {
           <span> Nicolas Aponce</span>
         </h1>
         <p className="h-sub-text">
-          este es la descripcion este es la descripcion este es la descripcion
-          este es la descripcion este es la descripcion este es la descripcion
-          este es la descripcion este es la descripcion este es la descripcion
+          Gracias por visitar mi perfil profesional. Soy un joven responsable,
+          amable y respetuoso, tengo 25 años vivo en la ciudad Lima Perú, en el
+          2019 terminé de estudiar la carrera de computación e informática.
+          Tengo 3 años de experiencia en el mundo del desarrollo de software, a
+          lo largo de mi carrera profesional me ha tocado afrontar diversos
+          obstáculos y los he superado todos y en el proceso he ganado mucha
+          experiencia tanto como desarrollador y como persona.
         </p>
         <div className="icons">
           <a

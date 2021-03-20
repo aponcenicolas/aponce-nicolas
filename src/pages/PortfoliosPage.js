@@ -27,7 +27,7 @@ const PortfoliosPage = () => {
   return (
     <div className="PortfolioPage">
       <div className="title">
-        <Title title={"Portfolios"} span={"portfolios"} />
+        <Title title={"Cursos sobre desarrollo de software"} span={""} />
       </div>
       <div className="portfolios-data">
         <Categories filter={filter} categories={categories} />

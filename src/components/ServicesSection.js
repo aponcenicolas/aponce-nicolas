@@ -10,7 +10,6 @@ const ServicesSection = ({ image, title, text }) => {
           <p className="s-text">{text}</p>
         </div>
       </div>
-      <h1>ServicesSection</h1>
     </div>
   );
 };

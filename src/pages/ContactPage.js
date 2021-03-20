@@ -1,15 +1,15 @@
 import React from "react";
-import ContactItem from "../components/ContactItem";
 import Title from "../components/Title";
-import phone from "../img/phone.svg";
-import email from "../img/emailme.svg";
-import location from "../img/location.svg";
+import ServicesSection from "../components/ServicesSection";
+import cellphone from "../img/cellphone.png";
+import mail from "../img/mail.png";
+import address from "../img/address.png";
 
 const ContactPage = () => {
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       <div className="title">
-        <Title title={"About Me"} span={"Sobre mi"} />
+        <Title title={"Contactame"} span={""} />
       </div>
       <div className="ContactPage">
         <div className="map-sect">
@@ -25,16 +25,20 @@ const ContactPage = () => {
           ></iframe>
         </div>
         <div className="contact-sect">
-          <ContactItem icon={phone} text={"+51 936944063"} title={"Telefono"} />
-          <ContactItem
-            icon={email}
-            text={"aponcenicolas@gmail.com"}
-            title={"Email"}
+          <ServicesSection
+            image={cellphone}
+            title={"+51 936 944 063"}
+            text={"Telefono"}
           />
-          <ContactItem
-            icon={location}
-            text={"Ate Vitarte Lima-Perú"}
-            title={"Direccion"}
+          <ServicesSection
+            image={mail}
+            title={"aponcenicolas@gmail.com"}
+            text={"E-mail"}
+          />
+          <ServicesSection
+            image={address}
+            title={"Ate Vitarte Lima-Perú"}
+            text={"Dirección"}
           />
         </div>
       </div>
